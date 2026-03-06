@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd 7square-icd-platform && npx prisma generate && npm run build",
+  "installCommand": "cd 7square-icd-platform && npm install",
+  "framework": "nextjs",
+  "outputDirectory": "7square-icd-platform/.next"
+}
